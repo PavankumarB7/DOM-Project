@@ -162,7 +162,7 @@
    ----------------------------*/
 
 
-body {
+/*body {
     background: url(img//project-3.jpg) no-repeat center center/ cover;
     height: 100vh;
     display: flex;
@@ -204,11 +204,11 @@ body {
     height: 0px;
     overflow: hidden;
     transition: .5s;
-} 
+}*/
 
 /* JS STYLING LINK */
 
-.accordion .content-container.active .answer {
+/*.accordion .content-container.active .answer {
     height: 150px;
 }
 
@@ -221,4 +221,63 @@ body {
     content: '-';
     font-size: 30px;
     transition: .5s;
+}*/
+
+/*---------------------------
+
+        STOP-WATCH STYLING
+
+   ----------------------------*/
+
+
+body {
+ background: url(img/project-4.jpg) no-repeat center center/ cover;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+ width: 60%;
+ height: 250px;
+ background-color: #fff;
+ border-radius: 30px;
+ box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 75px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;    
+} 
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
 }
